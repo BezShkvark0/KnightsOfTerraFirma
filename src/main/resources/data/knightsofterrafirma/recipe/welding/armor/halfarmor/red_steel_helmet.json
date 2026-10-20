@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:red_steel_halfarmor_helmet_unfinished"
+  },
+  "second_input": {
+    "item": "tfc:metal/sheet/red_steel"
+  },
+  "tier": 6,
+  "result": {
+    "id": "knightsofterrafirma:red_steel_halfarmor_helmet",
+    "count": 1
+  },
+  "bonus": "copy_best"
+}

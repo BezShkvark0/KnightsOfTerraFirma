@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/mace_head/black_steel"
+  },
+  "second_input": {
+    "item": "tfc:metal/ingot/black_steel"
+  },
+  "tier": 5,
+  "result": {
+    "id": "knightsofterrafirma:black_steel_heavy_mace_head",
+    "count": 1
+  },
+  "bonus": "copy_best"
+}

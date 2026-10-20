@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/tin"
+  },
+  "second_input": {
+    "tag": "c:sheets/tin"
+  },
+  "tier": 1,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:tin_kuyak_breastplate",
+    "count": 1
+  }
+}

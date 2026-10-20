@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:bismuth_bronze_murmillo_visor",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "shrink_last",
+    "draw_not_last",
+    "hit_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/sheet/bismuth_bronze"
+  }
+}

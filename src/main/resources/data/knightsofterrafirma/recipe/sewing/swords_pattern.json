@@ -1,0 +1,20 @@
+{
+  "type": "tfc:sewing",
+  "stitches": [
+    " ##  ##  ",
+    " ##  ##  ",
+    "   ##    ",
+    "  ####   ",
+    "  ####   "
+  ],
+  "squares": [
+    "BWBBBWB ",
+    "BBWBWBB ",
+    "BBBWBBB ",
+    "BBWBWBB "
+  ],
+  "result": {
+    "id": "magistuarmory:swords_pattern",
+    "count": 1
+  }
+}

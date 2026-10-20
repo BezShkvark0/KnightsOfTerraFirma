@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:ingots/iron"
+  },
+  "second_input": {
+    "tag": "c:ingots/iron"
+  },
+  "tier": 3,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:iron_french_halberd",
+    "count": 1
+  }
+}

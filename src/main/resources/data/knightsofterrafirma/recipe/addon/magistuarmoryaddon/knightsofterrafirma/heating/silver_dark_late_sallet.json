@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "knightsofterrafirma:silver_dark_late_sallet"
+  },
+  "result_fluid": {
+    "amount": 300,
+    "id": "tfc:metal/silver"
+  },
+  "temperature": 961,
+  "use_durability": true
+}

@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/sword_blade/red_steel"
+  },
+  "second_input": {
+    "item": "tfc:metal/sword_blade/red_steel"
+  },
+  "tier": 6,
+  "result": {
+    "id": "knightsofterrafirma:red_steel_zweihander_blade",
+    "count": 1
+  },
+  "bonus": "copy_best"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:ingots/copper"
+  },
+  "second_input": {
+    "tag": "c:ingots/copper"
+  },
+  "tier": 1,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:copper_voulge",
+    "count": 1
+  }
+}

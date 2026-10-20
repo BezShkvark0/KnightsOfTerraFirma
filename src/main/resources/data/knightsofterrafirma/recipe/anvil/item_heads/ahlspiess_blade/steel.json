@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:steel_ahlspiess_blade",
+    "count": 1
+  },
+  "tier": 4,
+  "rules": [
+    "punch_last",
+    "shrink_second_last",
+    "hit_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/sword_blade/steel"
+  },
+  "apply_bonus": true
+}

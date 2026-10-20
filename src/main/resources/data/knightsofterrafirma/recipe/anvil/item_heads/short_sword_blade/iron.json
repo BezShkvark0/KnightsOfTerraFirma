@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:iron_short_sword_blade",
+    "count": 1
+  },
+  "tier": 3,
+  "rules": [
+    "punch_not_last",
+    "punch_last",
+    "shrink_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/sword_blade/wrought_iron"
+  },
+  "apply_bonus": true
+}

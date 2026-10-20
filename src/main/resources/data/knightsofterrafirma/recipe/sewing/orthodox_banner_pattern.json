@@ -1,0 +1,20 @@
+{
+  "type": "tfc:sewing",
+  "stitches": [
+    "     ##  ",
+    " #   ### ",
+    " #   ### ",
+    "     ##  ",
+    "         "
+  ],
+  "squares": [
+    "BBBBBWBB",
+    "BWWWWWWB",
+    "BBBBBWBB",
+    "        "
+  ],
+  "result": {
+    "id": "magistuarmory:orthodox_cross_pattern",
+    "count": 1
+  }
+}

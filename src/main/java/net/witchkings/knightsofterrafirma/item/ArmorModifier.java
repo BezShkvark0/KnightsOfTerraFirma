@@ -1,31 +1,40 @@
 package net.witchkings.knightsofterrafirma.item;
 
 import com.magistuarmory.item.armor.ArmorType;
-import net.witchkings.knightsofterrafirma.mixin.ArmorTypeAccessor;
-import net.minecraft.world.item.ArmorItem; // Adjust import
+import java.util.IdentityHashMap;
+import java.util.Map;
+import net.minecraft.world.item.ArmorItem;
 
 public class ArmorModifier {
-    public static void modifyArmorType(ArmorType armorType,
-                                       int bootsDurability, int leggingsDurability, int chestplateDurability, int helmetDurability,
-                                       int bootsDefense, int leggingsDefense, int chestplateDefense, int helmetDefense, float toughness, float knockbackResistance) {
+    public record Stats(int[] durability, int[] defense, float toughness, float knockbackResistance) {
+        public int durability(ArmorItem.Type type) {
+            return durability[index(type)];
+        }
 
-        // Cast to ArmorTypeAccessor to gain access to accessor methods
-        ArmorTypeAccessor armorTypeAccessor = (ArmorTypeAccessor) (Object) armorType;
+        public int defense(ArmorItem.Type type) {
+            return defense[index(type)];
+        }
 
-        // Modify the durability For Each Slot
-        armorTypeAccessor.setBootsDurability(bootsDurability);
-        armorTypeAccessor.setLeggingsDurability(leggingsDurability);
-        armorTypeAccessor.setChestplateDurability(chestplateDurability);
-        armorTypeAccessor.setHelmetDurability(helmetDurability);
-
-        // Modify the defense For Each Slot
-        armorTypeAccessor.setBootsDefense(bootsDefense);
-        armorTypeAccessor.setLeggingsDefense(leggingsDefense);
-        armorTypeAccessor.setChestplateDefense(chestplateDefense);
-        armorTypeAccessor.setHelmetDefense(helmetDefense);
-
-        armorTypeAccessor.setToughness(toughness);
-        armorTypeAccessor.setKnockbackResistance(knockbackResistance);
+        private static int index(ArmorItem.Type type) {
+            return switch (type) {
+                case BOOTS -> 0;
+                case LEGGINGS -> 1;
+                case CHESTPLATE, BODY -> 2;
+                case HELMET -> 3;
+            };
+        }
     }
 
+    public static final Map<ArmorType, Stats> OVERRIDES = new IdentityHashMap<>();
+
+    public static void modifyArmorType(ArmorType armorType,
+                                        int bootsDurability, int leggingsDurability, int chestplateDurability, int helmetDurability,
+                                        int bootsDefense, int leggingsDefense, int chestplateDefense, int helmetDefense,
+                                        float toughness, float knockbackResistance) {
+        OVERRIDES.put(armorType, new Stats(
+                new int[]{bootsDurability, leggingsDurability, chestplateDurability, helmetDurability},
+                new int[]{bootsDefense, leggingsDefense, chestplateDefense, helmetDefense},
+                toughness,
+                knockbackResistance));
+    }
 }

@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/copper"
+  },
+  "second_input": {
+    "tag": "c:sheets/copper"
+  },
+  "tier": 1,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:copper_fully_gilded_kastenbrust_boots",
+    "count": 1
+  }
+}

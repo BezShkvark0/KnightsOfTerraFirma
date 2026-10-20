@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/copper"
+  },
+  "second_input": {
+    "tag": "c:sheets/copper"
+  },
+  "tier": 1,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:copper_darkblued_gothic_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/sword_blade/wrought_iron"
+  },
+  "second_input": {
+    "item": "tfc:metal/ingot/wrought_iron"
+  },
+  "tier": 3,
+  "result": {
+    "id": "knightsofterrafirma:iron_bastard_sword_blade",
+    "count": 1
+  },
+  "bonus": "copy_best"
+}

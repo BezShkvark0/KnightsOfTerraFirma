@@ -1,0 +1,14 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/double_sheet/wrought_iron"
+  },
+  "second_input": {
+    "item": "antiquelegacy:bronze_plate"
+  },
+  "tier": 2,
+  "result": {
+    "id": "antiquelegacy:iron_niederbieber_helmet",
+    "count": 1
+  }
+}

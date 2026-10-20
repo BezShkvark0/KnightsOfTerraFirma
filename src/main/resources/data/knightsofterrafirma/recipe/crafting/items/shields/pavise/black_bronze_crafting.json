@@ -1,0 +1,29 @@
+{
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    " T ",
+    "TPT",
+    " T "
+  ],
+  "key": {
+    "T": {
+      "item": "tfc:metal/ingot/black_bronze"
+    },
+    "P": {
+      "item": "magistuarmory:wood_pavese"
+    }
+  },
+  "result": {
+    "stack": {
+      "id": "knightsofterrafirma:black_bronze_pavese",
+      "count": 1
+    },
+    "modifiers": [
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
+    ]
+  },
+  "input_row": 0,
+  "input_column": 0
+}

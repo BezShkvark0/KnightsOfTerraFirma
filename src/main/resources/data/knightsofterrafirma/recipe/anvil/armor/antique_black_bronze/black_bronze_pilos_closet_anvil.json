@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:black_bronze_pilos_closet",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "hit_not_last",
+    "upset_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_sheet/black_bronze"
+  }
+}

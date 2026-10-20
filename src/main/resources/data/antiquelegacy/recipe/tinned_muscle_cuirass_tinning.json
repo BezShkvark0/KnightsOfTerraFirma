@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "antiquelegacy:bronze_muscle_cuirass"
+  },
+  "addition": {
+    "tag": "c:ingots/tin"
+  },
+  "result": {
+    "id": "antiquelegacy:tinned_muscle_cuirass",
+    "count": 1
+  },
+  "template": {
+    "item": "knightsofterrafirma:tin_gilding_template"
+  }
+}

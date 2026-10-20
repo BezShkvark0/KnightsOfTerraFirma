@@ -1,0 +1,20 @@
+{
+  "type": "tfc:sewing",
+  "stitches": [
+    " # # # # ",
+    "## ##  ##",
+    "   # #   ",
+    "##  ## ##",
+    " ##  # # "
+  ],
+  "squares": [
+    "BWWBBWWB",
+    "WBBWBBBW",
+    "WBBBWBBW",
+    "BWBBBWWB"
+  ],
+  "result": {
+    "id": "magistuarmory:snake_pattern",
+    "count": 1
+  }
+}

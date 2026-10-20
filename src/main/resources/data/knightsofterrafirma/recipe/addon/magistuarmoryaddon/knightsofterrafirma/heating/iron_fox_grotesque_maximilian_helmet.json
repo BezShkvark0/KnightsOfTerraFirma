@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "knightsofterrafirma:iron_fox_grotesque_maximilian_helmet"
+  },
+  "result_fluid": {
+    "amount": 300,
+    "id": "tfc:metal/cast_iron"
+  },
+  "temperature": 1585,
+  "use_durability": true
+}

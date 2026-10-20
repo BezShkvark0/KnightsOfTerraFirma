@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "antiquelegacy:iron_left_hand_manika_decoration",
+    "count": 1
+  },
+  "tier": 3,
+  "rules": [
+    "draw_last",
+    "punch_second_last",
+    "upset_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/sheet/wrought_iron"
+  }
+}

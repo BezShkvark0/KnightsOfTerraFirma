@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/steel"
+  },
+  "second_input": {
+    "tag": "c:sheets/steel"
+  },
+  "tier": 4,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:steel_dark_jousting_boots",
+    "count": 1
+  }
+}

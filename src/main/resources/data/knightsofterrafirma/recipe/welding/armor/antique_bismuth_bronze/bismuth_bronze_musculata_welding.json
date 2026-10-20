@@ -1,0 +1,14 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:bismuth_bronze_musculata_upper_part"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:bismuth_bronze_musculata_lower_part"
+  },
+  "tier": 2,
+  "result": {
+    "id": "knightsofterrafirma:bismuth_bronze_musculata",
+    "count": 1
+  }
+}

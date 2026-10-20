@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:chainmail_pants"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:crusader_knees"
+  },
+  "tier": 4,
+  "result": {
+    "id": "magistuarmory:crusader_leggings",
+    "count": 1
+  },
+  "bonus": "copy_best"
+}

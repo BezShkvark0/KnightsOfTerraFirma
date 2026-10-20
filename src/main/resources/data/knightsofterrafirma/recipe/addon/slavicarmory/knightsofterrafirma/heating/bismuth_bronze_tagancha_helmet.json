@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "knightsofterrafirma:bismuth_bronze_tagancha_helmet"
+  },
+  "result_fluid": {
+    "amount": 300,
+    "id": "tfc:metal/bismuth_bronze"
+  },
+  "temperature": 985,
+  "use_durability": true
+}

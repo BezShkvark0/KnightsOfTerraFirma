@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " bb",
+    "bbb",
+    "ba "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/black_bronze"
+    },
+    "b": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "knightsofterrafirma:black_bronze_greek_crest_decoration",
+    "count": 1
+  }
+}

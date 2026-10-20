@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "magistuarmory:armet"
+    },
+    {
+      "item": "magistuarmory:knight_chestplate"
+    },
+    {
+      "item": "magistuarmory:knight_leggings"
+    },
+    {
+      "item": "magistuarmory:knight_boots"
+    }
+  ],
+  "piercing": 6.5,
+  "slashing": 9.5,
+  "crushing": 8.5
+}

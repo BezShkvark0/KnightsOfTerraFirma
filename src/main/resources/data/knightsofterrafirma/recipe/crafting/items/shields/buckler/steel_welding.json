@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/double_ingot/steel"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:steel_shield_brace"
+  },
+  "tier": 4,
+  "result": {
+    "id": "magistuarmory:steel_buckler",
+    "count": 1
+  },
+  "bonus": "copy_best"
+}

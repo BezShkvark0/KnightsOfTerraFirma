@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:bismuth_bronze_intercisa",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "upset_not_last",
+    "draw_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_sheet/bismuth_bronze"
+  }
+}

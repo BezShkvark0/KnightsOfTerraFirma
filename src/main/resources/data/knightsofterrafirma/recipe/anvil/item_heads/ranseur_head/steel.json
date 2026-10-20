@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:steel_ranseur_head",
+    "count": 1
+  },
+  "tier": 4,
+  "rules": [
+    "punch_last",
+    "draw_second_last",
+    "hit_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/knife_blade/steel"
+  },
+  "apply_bonus": true
+}

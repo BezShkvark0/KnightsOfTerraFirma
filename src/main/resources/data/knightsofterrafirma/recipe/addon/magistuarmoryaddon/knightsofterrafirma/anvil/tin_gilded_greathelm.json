@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "ingredient": {
+    "tag": "c:sheets/tin"
+  },
+  "tier": 1,
+  "rules": [
+    "hit_last",
+    "draw_second_last",
+    "bend_third_last"
+  ],
+  "apply_bonus": true,
+  "result": {
+    "id": "knightsofterrafirma:tin_gilded_greathelm",
+    "count": 1
+  }
+}

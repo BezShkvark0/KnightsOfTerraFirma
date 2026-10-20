@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:iron_gladius_blade",
+    "count": 1
+  },
+  "tier": 3,
+  "rules": [
+    "hit_last",
+    "bend_not_last",
+    "punch_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_ingot/wrought_iron"
+  }
+}

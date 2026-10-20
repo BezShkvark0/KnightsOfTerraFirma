@@ -1,0 +1,16 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "knightsofterrafirma:bismuth_bronze_segmentata_lower_part"
+  },
+  "result_fluid": {
+    "amount": 100,
+    "id": "tfc:metal/bismuth_bronze"
+  },
+  "result_item": {
+    "id": "tfc:metal/sheet/wrought_iron",
+    "count": 1
+  },
+  "temperature": 985,
+  "use_durability": true
+}

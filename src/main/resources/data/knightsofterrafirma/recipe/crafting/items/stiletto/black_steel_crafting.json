@@ -1,0 +1,28 @@
+{
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    " T",
+    "P "
+  ],
+  "key": {
+    "T": {
+      "item": "knightsofterrafirma:black_steel_stiletto_blade"
+    },
+    "P": {
+      "item": "magistuarmory:hilt"
+    }
+  },
+  "result": {
+    "stack": {
+      "id": "knightsofterrafirma:black_steel_stiletto",
+      "count": 1
+    },
+    "modifiers": [
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
+    ]
+  },
+  "input_row": 0,
+  "input_column": 1
+}

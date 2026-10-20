@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "antiquelegacy:iron_squamata"
+  },
+  "result_fluid": {
+    "amount": 420,
+    "id": "tfc:metal/cast_iron"
+  },
+  "temperature": 1585,
+  "use_durability": true
+}

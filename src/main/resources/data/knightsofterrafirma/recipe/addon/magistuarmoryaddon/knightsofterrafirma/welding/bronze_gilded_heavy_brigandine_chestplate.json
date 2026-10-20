@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/bronze"
+  },
+  "second_input": {
+    "tag": "c:sheets/bronze"
+  },
+  "tier": 2,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:bronze_gilded_heavy_brigandine_chestplate",
+    "count": 1
+  }
+}

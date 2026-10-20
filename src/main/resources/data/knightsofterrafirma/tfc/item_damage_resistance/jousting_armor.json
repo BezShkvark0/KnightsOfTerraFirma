@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "magistuarmory:stechhelm"
+    },
+    {
+      "item": "magistuarmory:jousting_chestplate"
+    },
+    {
+      "item": "magistuarmory:jousting_leggings"
+    },
+    {
+      "item": "magistuarmory:jousting_boots"
+    }
+  ],
+  "piercing": 10.5,
+  "slashing": 9.5,
+  "crushing": 8.5
+}

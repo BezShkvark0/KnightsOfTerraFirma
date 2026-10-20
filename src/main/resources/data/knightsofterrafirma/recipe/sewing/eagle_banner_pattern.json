@@ -1,0 +1,20 @@
+{
+  "type": "tfc:sewing",
+  "stitches": [
+    "# ### # #",
+    " ### ### ",
+    "  ## ##  ",
+    "#### ####",
+    "  ## ##  "
+  ],
+  "squares": [
+    "WWBWBBWW",
+    "WBWWWWBW",
+    "WBBWWBBW",
+    "BBWBBWBB"
+  ],
+  "result": {
+    "id": "magistuarmory:eagle_pattern",
+    "count": 1
+  }
+}

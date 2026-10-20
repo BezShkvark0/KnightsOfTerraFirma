@@ -1,0 +1,8 @@
+gradle.projectsEvaluated {
+    def files = rootProject.configurations.compileClasspath
+    rootProject.tasks.register('printCp') {
+        doLast {
+            files.files.each { println it }
+        }
+    }
+}

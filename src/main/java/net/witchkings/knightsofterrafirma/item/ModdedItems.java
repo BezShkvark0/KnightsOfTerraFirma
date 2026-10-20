@@ -1,5 +1,7 @@
 package net.witchkings.knightsofterrafirma.item;
 
+import net.minecraft.tags.BlockTags;
+
 import com.magistuarmory.item.*;
 import dev.architectury.platform.Platform;
 import dev.architectury.registry.registries.RegistrySupplier;
@@ -20,11 +22,11 @@ import static com.magistuarmory.item.WeaponTypes.*;
 
 public class ModdedItems extends ModItemsProvider{
     public static ModdedItems INSTANCE = new ModdedItems();
-    public static ModItemTier BISMUTH_BRONZE = new ModItemTier("bismuth_bronze", 2, 1200, 6.0F, 2.0F, 15, Platform.isForge() ? "forge:ingots/bismuth_bronze" : "c:bismuth_bronze_ingots", 2);
-    public static ModItemTier BLACK_BRONZE = new ModItemTier("black_bronze", 2, 1460, 6.0F, 2.2F, 15, Platform.isForge() ? "forge:ingots/black_bronze" : "c:black_bronze_ingots", 2);
-    public static ModItemTier BLACK_STEEL = new ModItemTier("black_steel", 4, 4200, 8.0F, 4.0F, 15, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots", 4);
-    public static ModItemTier BLUE_STEEL = new ModItemTier("blue_steel", 5, 6500, 9.0F, 5.0F, 15, Platform.isForge() ? "forge:ingots/blue_steel" : "c:blue_steel_ingots", 5);
-    public static ModItemTier RED_STEEL = new ModItemTier("red_steel", 5, 6500, 9.0F, 5.0F, 15, Platform.isForge() ? "forge:ingots/red_steel" : "c:red_steel_ingots", 5);
+    public static ModItemTier BISMUTH_BRONZE = new ModItemTier("bismuth_bronze", BlockTags.INCORRECT_FOR_IRON_TOOL, 1200, 6.0F, 2.0F, 15, "c:ingots/bismuth_bronze", 2);
+    public static ModItemTier BLACK_BRONZE = new ModItemTier("black_bronze", BlockTags.INCORRECT_FOR_IRON_TOOL, 1460, 6.0F, 2.2F, 15, "c:ingots/black_bronze", 2);
+    public static ModItemTier BLACK_STEEL = new ModItemTier("black_steel", BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 4200, 8.0F, 4.0F, 15, "c:ingots/black_steel", 4);
+    public static ModItemTier BLUE_STEEL = new ModItemTier("blue_steel", BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 6500, 9.0F, 5.0F, 15, "c:ingots/blue_steel", 5);
+    public static ModItemTier RED_STEEL = new ModItemTier("red_steel", BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 6500, 9.0F, 5.0F, 15, "c:ingots/red_steel", 5);
 
     public static RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_BASTARDSWORD;
     public static RegistrySupplier<MedievalWeaponItem> BLACK_BRONZE_BASTARDSWORD;

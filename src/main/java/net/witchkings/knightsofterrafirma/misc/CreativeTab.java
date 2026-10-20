@@ -13,17 +13,17 @@ import dev.architectury.platform.Platform;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.bus.api.SubscribeEvent;
 import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
 import net.witchkings.knightsofterrafirma.item.AdditionalItems;
 import net.witchkings.knightsofterrafirma.item.AntiqueItems;
 import net.witchkings.knightsofterrafirma.item.ModdedItems;
 import net.minecraft.world.item.*;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import net.minecraft.core.registries.Registries;
-import net.minecraftforge.eventbus.api.IEventBus;
+import net.neoforged.bus.api.IEventBus;
 import net.minecraft.network.chat.Component;
 import net.witchkings.knightsofterrafirma.item.ModelledItems;
 
@@ -40,14 +40,14 @@ public class CreativeTab {
     public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, KnightsOfTerraFirma.MODID);
 
 
-    public static final RegistryObject<CreativeModeTab> KOTF_WEAPONS = CREATIVE_MODE_TABS.register("kotf_weapons", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModdedItems.BISMUTH_BRONZE_BASTARDSWORD.get()))
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> KOTF_WEAPONS = CREATIVE_MODE_TABS.register("kotf_weapons", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModdedItems.BISMUTH_BRONZE_BASTARDSWORD.get()))
             .title(Component.translatable("creativetab.kotf_weapons")).
             displayItems((itemDisplayParameters, output) -> {
             for (RegistrySupplier<MedievalWeaponItem> item:ModdedItems.listWeapons) {
                 output.accept(item.get());
             }})
             .build());
-    public static final RegistryObject<CreativeModeTab> KOTF_SHIELDS = CREATIVE_MODE_TABS.register("kotf_shields", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModelledItems.ELLIPTICAL_SHIELD.get()))
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> KOTF_SHIELDS = CREATIVE_MODE_TABS.register("kotf_shields", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModelledItems.ELLIPTICAL_SHIELD.get()))
             .title(Component.translatable("creativetab.kotf_shields")).
             displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModelledItems.ELLIPTICAL_SHIELD.get());
@@ -56,7 +56,7 @@ public class CreativeTab {
                 }
             })
             .build());
-    public static final RegistryObject<CreativeModeTab> KOTF_PARTS = CREATIVE_MODE_TABS.register("kotf_parts", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModdedItems.BISMUTH_BRONZE_CONCAVE_HEAD.get()))
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> KOTF_PARTS = CREATIVE_MODE_TABS.register("kotf_parts", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModdedItems.BISMUTH_BRONZE_CONCAVE_HEAD.get()))
             .title(Component.translatable("creativetab.kotf_weapon_parts")).
             displayItems((itemDisplayParameters, output) -> {
                 for (RegistrySupplier<Item> item:ModdedItems.listParts) {
@@ -64,7 +64,7 @@ public class CreativeTab {
                 }
             })
             .build());
-    public static final RegistryObject<CreativeModeTab> KOTF_ARMOR_PARTS = CREATIVE_MODE_TABS.register("kotf_armor_parts", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModdedItems.BASCINET_VISOR.get()))
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> KOTF_ARMOR_PARTS = CREATIVE_MODE_TABS.register("kotf_armor_parts", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModdedItems.BASCINET_VISOR.get()))
             .title(Component.translatable("creativetab.kotf_armor_parts")).
             displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModdedItems.BASCINET_VISOR.get());
@@ -128,7 +128,7 @@ public class CreativeTab {
 
             })
             .build());
-    public static final RegistryObject<CreativeModeTab> KOTF_ARMOR = CREATIVE_MODE_TABS.register("kotf_armor", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModelledItems.BLACKSTEEL_ARMET.get()))
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> KOTF_ARMOR = CREATIVE_MODE_TABS.register("kotf_armor", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModelledItems.BLACKSTEEL_ARMET.get()))
             .title(Component.translatable("creativetab.kotf_armor")).
             displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModelledItems.SILVER_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
@@ -177,7 +177,7 @@ public class CreativeTab {
                 output.accept(ModelledItems.ROSE_GOLD_BLACKSTEEL_KNIGHT_LEGGINGS.get());
                 output.accept(ModelledItems.ROSE_GOLD_BLACKSTEEL_KNIGHT_BOOTS.get());
 
-                for (RegistrySupplier<MedievalArmorItem> item:ModelledItems.listBlackArmor) {
+                for (RegistrySupplier<? extends MedievalArmorItem> item:ModelledItems.listBlackArmor) {
                     output.accept(item.get());
                 }
 
@@ -211,7 +211,7 @@ public class CreativeTab {
                 output.accept(ModelledItems.BLUESTEEL_ROSE_GOLD_KNIGHT_LEGGINGS.get());
                 output.accept(ModelledItems.BLUESTEEL_ROSE_GOLD_KNIGHT_BOOTS.get());
 
-                for (RegistrySupplier<MedievalArmorItem> item:ModelledItems.listBlueArmor) {
+                for (RegistrySupplier<? extends MedievalArmorItem> item:ModelledItems.listBlueArmor) {
                     output.accept(item.get());
                 }
 
@@ -245,7 +245,7 @@ public class CreativeTab {
                 output.accept(ModelledItems.REDSTEEL_ROSE_GOLD_KNIGHT_LEGGINGS.get());
                 output.accept(ModelledItems.REDSTEEL_ROSE_GOLD_KNIGHT_BOOTS.get());
 
-                for (RegistrySupplier<MedievalArmorItem> item:ModelledItems.listRedArmor) {
+                for (RegistrySupplier<? extends MedievalArmorItem> item:ModelledItems.listRedArmor) {
                     output.accept(item.get());
                 }
 

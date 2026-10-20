@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "antiquelegacy:roman_parade_helmet",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "punch_last",
+    "draw_not_last",
+    "hit_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_sheet/bronze"
+  }
+}

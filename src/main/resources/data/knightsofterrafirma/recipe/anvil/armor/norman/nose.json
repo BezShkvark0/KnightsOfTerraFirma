@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:norman_helmet_nose",
+    "count": 1
+  },
+  "tier": 4,
+  "rules": [
+    "bend_last",
+    "upset_not_last",
+    "shrink_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/ingot/steel"
+  }
+}

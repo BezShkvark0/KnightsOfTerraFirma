@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/iron"
+  },
+  "second_input": {
+    "tag": "c:sheets/iron"
+  },
+  "tier": 3,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:iron_landsknecht_white_hat",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "tfc:sewing",
+  "stitches": [
+    "  #   #  ",
+    "         ",
+    "  ## ##  ",
+    "         ",
+    "   # #   "
+  ],
+  "squares": [
+    "BBWWWWBB",
+    "BBWWWWBB",
+    "BBBWWBBB",
+    "BBBWWBBB"
+  ],
+  "result": {
+    "id": "magistuarmory:bowl_pattern",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    " t ",
+    "   "
+  ],
+  "key": {
+    "i": {
+      "tag": "c:ingots/rose_gold"
+    },
+    "t": {
+      "item": "knightsofterrafirma:rose_gold_gilding_template"
+    }
+  },
+  "result": {
+    "id": "knightsofterrafirma:rose_gold_gilding_template",
+    "count": 2
+  }
+}

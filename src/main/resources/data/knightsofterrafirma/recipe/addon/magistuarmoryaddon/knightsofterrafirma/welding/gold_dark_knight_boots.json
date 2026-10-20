@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/gold"
+  },
+  "second_input": {
+    "tag": "c:sheets/gold"
+  },
+  "tier": 1,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:gold_dark_knight_boots",
+    "count": 1
+  }
+}

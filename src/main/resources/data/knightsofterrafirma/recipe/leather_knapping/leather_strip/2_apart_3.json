@@ -1,0 +1,15 @@
+{
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:leather",
+  "pattern": [
+    "XXXXX",
+    "     ",
+    "     ",
+    "     ",
+    "XXXXX"
+  ],
+  "result": {
+    "id": "magistuarmory:leather_strip",
+    "count": 2
+  }
+}

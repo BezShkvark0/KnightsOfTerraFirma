@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    " a ",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:nuggets/bismuth_bronze"
+    },
+    "b": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "id": "knightsofterrafirma:bismuth_bronze_triple_feather_decoration",
+    "count": 1
+  }
+}

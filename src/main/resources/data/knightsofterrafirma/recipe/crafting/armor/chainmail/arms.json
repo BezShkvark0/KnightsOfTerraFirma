@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "S S",
+    "   "
+  ],
+  "key": {
+    "S": {
+      "item": "magistuarmory:steel_chainmail"
+    }
+  },
+  "result": {
+    "id": "knightsofterrafirma:chainmail_arms",
+    "count": 1
+  }
+}

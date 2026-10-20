@@ -1,0 +1,28 @@
+{
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    " S",
+    "P "
+  ],
+  "key": {
+    "S": {
+      "item": "knightsofterrafirma:bronze_kopis_blade"
+    },
+    "P": {
+      "item": "magistuarmory:hilt"
+    }
+  },
+  "result": {
+    "stack": {
+      "id": "knightsofterrafirma:bronze_kopis",
+      "count": 1
+    },
+    "modifiers": [
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
+    ]
+  },
+  "input_row": 0,
+  "input_column": 1
+}

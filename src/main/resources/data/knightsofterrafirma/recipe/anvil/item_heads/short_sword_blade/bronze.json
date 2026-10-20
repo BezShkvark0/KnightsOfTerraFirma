@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:bronze_short_sword_blade",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "punch_not_last",
+    "punch_last",
+    "shrink_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/sword_blade/bronze"
+  },
+  "apply_bonus": true
+}

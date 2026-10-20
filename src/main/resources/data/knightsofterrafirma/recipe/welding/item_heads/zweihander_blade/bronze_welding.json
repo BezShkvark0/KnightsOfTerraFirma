@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/sword_blade/bronze"
+  },
+  "second_input": {
+    "item": "tfc:metal/sword_blade/bronze"
+  },
+  "tier": 2,
+  "result": {
+    "id": "knightsofterrafirma:bronze_zweihander_blade",
+    "count": 1
+  },
+  "bonus": "copy_best"
+}

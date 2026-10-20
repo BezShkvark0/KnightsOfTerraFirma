@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "knightsofterrafirma:blue_steel_opened_sallet"
+  },
+  "result_fluid": {
+    "amount": 300,
+    "id": "tfc:metal/blue_steel"
+  },
+  "temperature": 1540,
+  "use_durability": true
+}

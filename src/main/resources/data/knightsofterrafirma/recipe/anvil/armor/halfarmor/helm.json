@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:halfarmor_helmet_unfinished",
+    "count": 1
+  },
+  "tier": 4,
+  "rules": [
+    "bend_last",
+    "upset_not_last",
+    "shrink_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/sheet/steel"
+  }
+}

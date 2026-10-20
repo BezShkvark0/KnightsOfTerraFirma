@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "antiquelegacy:celtic_montefortino_helmet",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "punch_last",
+    "upset_second_last",
+    "draw_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_sheet/bronze"
+  }
+}

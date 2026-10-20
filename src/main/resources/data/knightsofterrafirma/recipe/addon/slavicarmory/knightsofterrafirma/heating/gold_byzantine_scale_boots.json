@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "knightsofterrafirma:gold_byzantine_scale_boots"
+  },
+  "result_fluid": {
+    "amount": 300,
+    "id": "tfc:metal/gold"
+  },
+  "temperature": 1060,
+  "use_durability": true
+}

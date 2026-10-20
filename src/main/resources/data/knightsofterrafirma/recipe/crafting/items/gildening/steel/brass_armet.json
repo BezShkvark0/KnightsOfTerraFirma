@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "magistuarmory:armet"
+  },
+  "addition": {
+    "tag": "c:ingots/brass"
+  },
+  "result": {
+    "id": "knightsofterrafirma:brass_steel_ceremonialarmet",
+    "count": 1
+  },
+  "template": {
+    "item": "knightsofterrafirma:brass_gilding_template"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "tfc:sewing",
+  "stitches": [
+    "   ##    ",
+    " ##  ##  ",
+    " #    #  ",
+    "  ####   ",
+    "   ##    "
+  ],
+  "squares": [
+    "BBBWBBB ",
+    "BWBWBWB ",
+    "BBWWWBB ",
+    "BBBWBBB "
+  ],
+  "result": {
+    "id": "magistuarmory:lily_pattern",
+    "count": 1
+  }
+}

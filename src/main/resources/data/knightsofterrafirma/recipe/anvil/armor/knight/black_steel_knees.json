@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:black_steel_knight_knees",
+    "count": 1
+  },
+  "tier": 4,
+  "rules": [
+    "hit_last",
+    "bend_second_last",
+    "shrink_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_sheet/black_steel"
+  }
+}

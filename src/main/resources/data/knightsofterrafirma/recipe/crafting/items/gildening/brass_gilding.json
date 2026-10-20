@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    " p ",
+    "   "
+  ],
+  "key": {
+    "i": {
+      "tag": "c:ingots/brass"
+    },
+    "p": {
+      "tag": "magistuarmory:small_plates/steel"
+    }
+  },
+  "result": {
+    "id": "knightsofterrafirma:brass_gilding_template",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WFW",
+    "W W",
+    "W W"
+  ],
+  "key": {
+    "W": {
+      "item": "tfc:wool_cloth"
+    },
+    "F": {
+      "item": "magistuarmory:feathers_decoration"
+    }
+  },
+  "result": {
+    "id": "magistuarmory:pantyhose",
+    "count": 1
+  }
+}

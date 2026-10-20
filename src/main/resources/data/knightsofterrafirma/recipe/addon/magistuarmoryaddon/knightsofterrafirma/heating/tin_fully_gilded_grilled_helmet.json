@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "knightsofterrafirma:tin_fully_gilded_grilled_helmet"
+  },
+  "result_fluid": {
+    "amount": 300,
+    "id": "tfc:metal/tin"
+  },
+  "temperature": 230,
+  "use_durability": true
+}

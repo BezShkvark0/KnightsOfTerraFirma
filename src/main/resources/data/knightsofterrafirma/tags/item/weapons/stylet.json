@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_stylet",
+    "magistuarmory:bronze_stylet",
+    "magistuarmory:iron_stylet",
+    "magistuarmory:steel_stylet",
+    "magistuarmory:netherite_stylet",
+    "magistuarmory:wood_stylet",
+    "magistuarmory:stone_stylet",
+    "magistuarmory:gold_stylet",
+    "magistuarmory:diamond_stylet",
+    "magistuarmory:silver_stylet",
+    "knightsofterrafirma:bismuth_bronze_stiletto",
+    "knightsofterrafirma:black_bronze_stiletto",
+    "knightsofterrafirma:black_steel_stiletto",
+    "knightsofterrafirma:blue_steel_stiletto",
+    "knightsofterrafirma:red_steel_stiletto"
+  ]
+}

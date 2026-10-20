@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "ingredient": {
+    "tag": "c:ingots/iron"
+  },
+  "tier": 3,
+  "rules": [
+    "hit_last",
+    "draw_second_last",
+    "bend_third_last"
+  ],
+  "apply_bonus": true,
+  "result": {
+    "id": "knightsofterrafirma:iron_short_seax",
+    "count": 1
+  }
+}

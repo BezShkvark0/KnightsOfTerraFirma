@@ -1,0 +1,28 @@
+{
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    " A",
+    "S "
+  ],
+  "key": {
+    "S": {
+      "item": "magistuarmory:pole"
+    },
+    "A": {
+      "item": "tfc:metal/javelin_head/wrought_iron"
+    }
+  },
+  "result": {
+    "stack": {
+      "id": "antiquelegacy:iron_triarii_spear",
+      "count": 1
+    },
+    "modifiers": [
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
+    ]
+  },
+  "input_row": 0,
+  "input_column": 1
+}

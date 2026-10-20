@@ -1,0 +1,32 @@
+{
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    "  B",
+    " T ",
+    "P  "
+  ],
+  "key": {
+    "B": {
+      "item": "tfc:metal/ingot/copper"
+    },
+    "T": {
+      "item": "tfc:metal/tuyere/copper"
+    },
+    "P": {
+      "item": "magistuarmory:pole"
+    }
+  },
+  "result": {
+    "stack": {
+      "id": "magistuarmory:copper_chivalrylance",
+      "count": 1
+    },
+    "modifiers": [
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
+    ]
+  },
+  "input_row": 0,
+  "input_column": 2
+}

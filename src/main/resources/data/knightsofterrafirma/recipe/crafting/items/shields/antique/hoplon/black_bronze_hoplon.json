@@ -1,0 +1,30 @@
+{
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    "NHT"
+  ],
+  "key": {
+    "T": {
+      "item": "knightsofterrafirma:black_bronze_shield_brace"
+    },
+    "H": {
+      "item": "minecraft:leather"
+    },
+    "N": {
+      "item": "tfc:metal/double_sheet/black_bronze"
+    }
+  },
+  "result": {
+    "stack": {
+      "id": "knightsofterrafirma:black_bronze_hoplon",
+      "count": 1
+    },
+    "modifiers": [
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
+    ]
+  },
+  "input_row": 0,
+  "input_column": 0
+}

@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "ingredient": {
+    "tag": "c:sheets/gold"
+  },
+  "tier": 1,
+  "rules": [
+    "hit_last",
+    "draw_second_last",
+    "bend_third_last"
+  ],
+  "apply_bonus": true,
+  "result": {
+    "id": "knightsofterrafirma:gold_fully_gilded_articulated_chestplate",
+    "count": 1
+  }
+}

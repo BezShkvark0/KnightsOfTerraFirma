@@ -1,0 +1,16 @@
+{
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+    "count": 1,
+    "item": "magistuarmory:feathers_decoration"
+  },
+  "input_fluid": {
+    "amount": 25,
+    "fluid": "tfc:red_dye"
+  },
+  "output_item": {
+    "id": "magistuarmory:big_plume_decoration",
+    "count": 1
+  },
+  "duration": 1000
+}

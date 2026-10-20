@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:ingots/bismuth_bronze"
+  },
+  "second_input": {
+    "tag": "c:ingots/bismuth_bronze"
+  },
+  "tier": 2,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:bismuth_bronze_arming_sword_type_xiii",
+    "count": 1
+  }
+}

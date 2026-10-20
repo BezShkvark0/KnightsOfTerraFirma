@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:ingots/bronze"
+  },
+  "second_input": {
+    "tag": "c:ingots/bronze"
+  },
+  "tier": 2,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:bronze_war_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    "bbb",
+    "bab"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/bronze"
+    },
+    "b": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "antiquelegacy:roman_crest_alt_decoration",
+    "count": 1
+  }
+}

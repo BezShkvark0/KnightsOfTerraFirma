@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:red_steel_knight_pants"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:red_steel_knight_knees"
+  },
+  "tier": 6,
+  "result": {
+    "id": "knightsofterrafirma:red_steel_knight_leggings",
+    "count": 1
+  },
+  "bonus": "copy_best"
+}

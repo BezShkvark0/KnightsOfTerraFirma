@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:black_bronze_secutor_visor",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "punch_last",
+    "upset_not_last",
+    "hit_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/sheet/black_bronze"
+  }
+}

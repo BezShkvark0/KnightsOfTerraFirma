@@ -1,0 +1,14 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:black_bronze_musculata_upper_part"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:black_bronze_musculata_lower_part"
+  },
+  "tier": 2,
+  "result": {
+    "id": "knightsofterrafirma:black_bronze_musculata",
+    "count": 1
+  }
+}

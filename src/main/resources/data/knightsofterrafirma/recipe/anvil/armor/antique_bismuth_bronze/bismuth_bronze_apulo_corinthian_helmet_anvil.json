@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:bismuth_bronze_apulo_corinthian_helmet",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "hit_last",
+    "upset_not_last",
+    "bend_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_sheet/bismuth_bronze"
+  }
+}

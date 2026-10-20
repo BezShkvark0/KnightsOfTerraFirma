@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "antiquelegacy:bronze_nugget"
+  },
+  "result_fluid": {
+    "amount": 5,
+    "id": "tfc:metal/bronze"
+  },
+  "temperature": 950
+}

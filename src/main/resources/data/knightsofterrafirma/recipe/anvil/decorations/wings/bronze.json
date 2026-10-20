@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "antiquelegacy:bronze_small_wings_decoration",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "upset_not_last",
+    "draw_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/ingot/bronze"
+  }
+}

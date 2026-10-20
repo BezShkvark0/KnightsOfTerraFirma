@@ -1,0 +1,22 @@
+{
+  "type": "tfc:advanced_shapeless_crafting",
+  "ingredients": [
+    {
+      "item": "tfc:wool_cloth"
+    }
+  ],
+  "primary_ingredient": {
+    "item": "tfc:wool_cloth"
+  },
+  "remainder": {
+    "modifiers": [
+      {
+        "type": "tfc:damage_crafting_remainder"
+      }
+    ]
+  },
+  "result": {
+    "id": "magistuarmory:woolen_fabric",
+    "count": 1
+  }
+}

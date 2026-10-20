@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:iron_kopis_blade",
+    "count": 1
+  },
+  "tier": 3,
+  "rules": [
+    "bend_last",
+    "shrink_not_last",
+    "draw_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/sword_blade/wrought_iron"
+  }
+}
