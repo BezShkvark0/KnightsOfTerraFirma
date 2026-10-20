@@ -11,8 +11,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.function.Supplier;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Item;
 import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
 import net.witchkings.knightsofterrafirma.item.ModdedItems;
@@ -81,6 +83,10 @@ public final class OptionalGearRegistrar {
     }
 
     private static ArmorType copy(ArmorType source, ModItemTier metal) {
+        // Defense, toughness, and the equip sound live on the armor material. Epic Knights only
+        // registers that material later, so the public getters throw while mods are still constructing.
+        ArmorMaterial stats = pendingMaterial(source);
+        Map<ArmorItem.Type, Integer> defenseBySlot = stats.defense();
         Integer[] durability = new Integer[] {
                 source.getDurabilityForType(ArmorItem.Type.BOOTS),
                 source.getDurabilityForType(ArmorItem.Type.LEGGINGS),
@@ -88,25 +94,44 @@ public final class OptionalGearRegistrar {
                 source.getDurabilityForType(ArmorItem.Type.HELMET)
         };
         Integer[] defense = new Integer[] {
-                source.getDefenseForType(ArmorItem.Type.BOOTS),
-                source.getDefenseForType(ArmorItem.Type.LEGGINGS),
-                source.getDefenseForType(ArmorItem.Type.CHESTPLATE),
-                source.getDefenseForType(ArmorItem.Type.HELMET)
+                defenseBySlot.get(ArmorItem.Type.BOOTS),
+                defenseBySlot.get(ArmorItem.Type.LEGGINGS),
+                defenseBySlot.get(ArmorItem.Type.CHESTPLATE),
+                defenseBySlot.get(ArmorItem.Type.HELMET)
         };
         String metalName = metal.getMaterialName();
         return new ArmorType(
                 ArmorTypes.ARMOR_MATERIALS,
-                ResourceLocation.fromNamespaceAndPath(KnightsOfTerraFirma.MODID, metalName + "_" + source.getName()),
+                ResourceLocation.fromNamespaceAndPath(KnightsOfTerraFirma.MODID, metalName + "_" + materialName(source)),
                 modelLocation(source),
-                source.getToughness(),
-                source.getKnockbackResistance(),
+                stats.toughness(),
+                stats.knockbackResistance(),
                 durability,
                 defense,
-                source.getEnchantmentValue(),
-                source.getEquipSound(),
+                stats.enchantmentValue(),
+                stats.equipSound(),
                 !source.isDisabled(),
                 false,
                 "c:ingots/" + metalName);
+    }
+
+    private static String materialName(ArmorType source) {
+        String name = source.getLocation().getPath();
+        int separator = name.lastIndexOf('/');
+        return separator < 0 ? name : name.substring(separator + 1);
+    }
+
+    private static ArmorMaterial pendingMaterial(ArmorType source) {
+        Object holder = source.getMaterial();
+        try {
+            Field supplier = holder.getClass().getDeclaredField("supplier");
+            supplier.setAccessible(true);
+            @SuppressWarnings("unchecked")
+            Supplier<ArmorMaterial> factory = (Supplier<ArmorMaterial>) supplier.get(holder);
+            return factory.get();
+        } catch (ReflectiveOperationException exception) {
+            throw new IllegalStateException("Could not read Epic Knights armor material " + source.getLocation(), exception);
+        }
     }
 
     private static String itemId(ModItemTier metal, String pieceId) {
