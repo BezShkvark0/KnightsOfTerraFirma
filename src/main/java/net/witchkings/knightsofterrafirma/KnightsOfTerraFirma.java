@@ -25,6 +25,7 @@ import net.witchkings.knightsofterrafirma.config.ConfigArmor;
 import net.witchkings.knightsofterrafirma.config.ConfigMain;
 import net.witchkings.knightsofterrafirma.item.*;
 import net.witchkings.knightsofterrafirma.item.addon.EpicKnightsAddonItems;
+import net.witchkings.knightsofterrafirma.item.addon.OptionalGearRegistrar;
 import net.witchkings.knightsofterrafirma.item.addon.SlavicArmoryItems;
 import net.witchkings.knightsofterrafirma.misc.*;
 
@@ -95,6 +96,9 @@ public class KnightsOfTerraFirma {
             if (Platform.getEnv() == Dist.CLIENT) {
                 SlavicArmoryItems.initClient();
             }
+        }
+        if (Platform.isModLoaded("magistuarmoryaddon") || Platform.isModLoaded("slavicarmory")) {
+            OptionalGearRegistrar.registerMaterials();
         }
     }
 

@@ -5,6 +5,7 @@ import com.magistuarmory.item.ModItemTier;
 import com.magistuarmory.item.WeaponType;
 import com.magistuarmory.item.armor.ArmorType;
 import com.magistuarmory.item.armor.ArmorTypes;
+import dev.architectury.registry.registries.DeferredRegister;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.HashMap;
@@ -12,6 +13,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.function.Supplier;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
@@ -38,6 +40,9 @@ public final class OptionalGearRegistrar {
             ModItemTier.SILVER,
             ModItemTier.GOLD);
 
+    private static final DeferredRegister<ArmorMaterial> MATERIALS =
+            DeferredRegister.create(KnightsOfTerraFirma.MODID, Registries.ARMOR_MATERIAL);
+    private static final Map<String, ArmorType> CREATED = new HashMap<>();
     private static final Field MODEL_LOCATION = modelLocationField();
 
     private OptionalGearRegistrar() {
@@ -64,7 +69,6 @@ public final class OptionalGearRegistrar {
 
     public static void registerArmor(ModItemsProvider provider, Class<?> armorTypes, List<GearCatalog.ArmorPiece> pieces) {
         Map<String, ArmorType> sources = armorTypes(armorTypes);
-        Map<String, ArmorType> created = new HashMap<>();
         for (ModItemTier metal : METALS) {
             for (GearCatalog.ArmorPiece piece : pieces) {
                 ArmorType source = sources.get(piece.sourceType());
@@ -74,9 +78,9 @@ public final class OptionalGearRegistrar {
                 if (source.isDisabled()) {
                     continue;
                 }
-                String key = metal.getMaterialName() + "/" + piece.sourceType();
+                String key = metal.getMaterialName() + "/" + source.getLocation();
                 ArmorType sourceType = source;
-                ArmorType type = created.computeIfAbsent(key, ignored -> copy(sourceType, metal));
+                ArmorType type = CREATED.computeIfAbsent(key, ignored -> copy(sourceType, metal));
                 provider.addMedievalArmorItem(itemId(metal, piece.pieceId()), type, slot(piece.slot()), new Item.Properties());
             }
         }
@@ -100,9 +104,12 @@ public final class OptionalGearRegistrar {
                 defenseBySlot.get(ArmorItem.Type.HELMET)
         };
         String metalName = metal.getMaterialName();
+        ResourceLocation sourceId = source.getLocation();
         return new ArmorType(
-                ArmorTypes.ARMOR_MATERIALS,
-                ResourceLocation.fromNamespaceAndPath(KnightsOfTerraFirma.MODID, metalName + "_" + materialName(source)),
+                MATERIALS,
+                ResourceLocation.fromNamespaceAndPath(
+                        KnightsOfTerraFirma.MODID,
+                        metalName + "_" + sourceId.getNamespace() + "_" + sourceId.getPath().replace('/', '_')),
                 modelLocation(source),
                 stats.toughness(),
                 stats.knockbackResistance(),
@@ -115,10 +122,8 @@ public final class OptionalGearRegistrar {
                 "c:ingots/" + metalName);
     }
 
-    private static String materialName(ArmorType source) {
-        String name = source.getLocation().getPath();
-        int separator = name.lastIndexOf('/');
-        return separator < 0 ? name : name.substring(separator + 1);
+    public static void registerMaterials() {
+        MATERIALS.register();
     }
 
     private static ArmorMaterial pendingMaterial(ArmorType source) {
