@@ -13,6 +13,7 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
@@ -120,6 +121,27 @@ public class KnightsOfTerraFirma {
         public static void onClientSetup(FMLClientSetupEvent event) {
             // Some client setup code
             LOGGER.info("Call the banners! We enter the fray!");
+            prepareWthit();
+        }
+
+        // WTHIT loads its tooltip service from the thread context class loader. The creative
+        // search index builds tooltips on a background thread, whose loader cannot see that service.
+        private static void prepareWthit() {
+            if (!ModList.get().isLoaded("wthit")) {
+                return;
+            }
+            String serviceName = "mcp.mobius.waila.api.__internal__.IClientApiService";
+            Thread thread = Thread.currentThread();
+            ClassLoader previous = thread.getContextClassLoader();
+            try {
+                Class<?> service = Class.forName(serviceName, false, KnightsOfTerraFirma.class.getClassLoader());
+                thread.setContextClassLoader(service.getClassLoader());
+                Class.forName(serviceName, true, service.getClassLoader());
+            } catch (ReflectiveOperationException | ExceptionInInitializerError exception) {
+                LOGGER.warn("Could not prepare WTHIT tooltips", exception);
+            } finally {
+                thread.setContextClassLoader(previous);
+            }
         }
     }
 
