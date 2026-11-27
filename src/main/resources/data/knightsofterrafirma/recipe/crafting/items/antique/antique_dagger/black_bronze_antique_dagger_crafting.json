@@ -1,0 +1,31 @@
+{
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    "TS",
+    "P "
+  ],
+  "key": {
+    "S": {
+      "item": "knightsofterrafirma:black_bronze_antique_dagger_blade"
+    },
+    "P": {
+      "item": "magistuarmory:hilt"
+    },
+    "T": {
+      "item": "knightsofterrafirma:black_bronze_antique_hilt"
+    }
+  },
+  "result": {
+    "stack": {
+      "id": "knightsofterrafirma:black_bronze_antique_dagger",
+      "count": 1
+    },
+    "modifiers": [
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
+    ]
+  },
+  "input_row": 0,
+  "input_column": 1
+}

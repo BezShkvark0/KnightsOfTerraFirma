@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:black_bronze_ranseur_head",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "punch_last",
+    "draw_second_last",
+    "hit_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/knife_blade/black_bronze"
+  },
+  "apply_bonus": true
+}

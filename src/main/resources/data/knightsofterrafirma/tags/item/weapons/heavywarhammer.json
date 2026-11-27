@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_heavywarhammer",
+    "magistuarmory:bronze_heavywarhammer",
+    "magistuarmory:iron_heavywarhammer",
+    "magistuarmory:steel_heavywarhammer",
+    "magistuarmory:netherite_heavywarhammer",
+    "magistuarmory:wood_heavywarhammer",
+    "magistuarmory:stone_heavywarhammer",
+    "magistuarmory:gold_heavywarhammer",
+    "magistuarmory:diamond_heavywarhammer",
+    "magistuarmory:silver_heavywarhammer",
+    "knightsofterrafirma:bismuth_bronze_heavy_war_hammer",
+    "knightsofterrafirma:black_bronze_heavy_war_hammer",
+    "knightsofterrafirma:black_steel_heavy_war_hammer",
+    "knightsofterrafirma:blue_steel_heavy_war_hammer",
+    "knightsofterrafirma:red_steel_heavy_war_hammer"
+  ]
+}

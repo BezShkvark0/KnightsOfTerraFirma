@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:small_black_bronze_plate",
+    "count": 7
+  },
+  "tier": 2,
+  "rules": [
+    "hit_third_last",
+    "hit_second_last",
+    "hit_last"
+  ],
+  "ingredient": {
+    "item": "knightsofterrafirma:black_bronze_plate"
+  },
+  "apply_bonus": false
+}

@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "antiquelegacy:bronze_plate",
+    "count": 2
+  },
+  "tier": 2,
+  "rules": [
+    "hit_third_last",
+    "hit_second_last",
+    "hit_last"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/sheet/bronze"
+  },
+  "apply_bonus": false
+}

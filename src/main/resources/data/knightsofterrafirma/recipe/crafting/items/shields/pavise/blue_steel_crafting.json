@@ -1,0 +1,29 @@
+{
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    " T ",
+    "TPT",
+    " T "
+  ],
+  "key": {
+    "T": {
+      "item": "tfc:metal/ingot/blue_steel"
+    },
+    "P": {
+      "item": "magistuarmory:wood_pavese"
+    }
+  },
+  "result": {
+    "stack": {
+      "id": "knightsofterrafirma:blue_steel_pavese",
+      "count": 1
+    },
+    "modifiers": [
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
+    ]
+  },
+  "input_row": 0,
+  "input_column": 0
+}

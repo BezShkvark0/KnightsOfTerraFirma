@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/double_ingot/black_steel"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:black_steel_shield_brace"
+  },
+  "tier": 5,
+  "result": {
+    "id": "knightsofterrafirma:black_steel_buckler",
+    "count": 1
+  },
+  "bonus": "copy_best"
+}

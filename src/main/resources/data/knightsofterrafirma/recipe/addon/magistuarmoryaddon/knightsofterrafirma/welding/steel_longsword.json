@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:ingots/steel"
+  },
+  "second_input": {
+    "tag": "c:ingots/steel"
+  },
+  "tier": 4,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:steel_longsword",
+    "count": 1
+  }
+}

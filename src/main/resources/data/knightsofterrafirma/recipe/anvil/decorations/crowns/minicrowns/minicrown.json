@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "magistuarmory:minicrown_decoration",
+    "count": 1
+  },
+  "tier": 1,
+  "rules": [
+    "hit_last",
+    "bend_second_last",
+    "bend_third_last"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/sheet/gold"
+  }
+}

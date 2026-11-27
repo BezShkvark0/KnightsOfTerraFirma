@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:crusader_knees",
+    "count": 1
+  },
+  "tier": 4,
+  "rules": [
+    "shrink_any",
+    "bend_second_last",
+    "hit_last"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_sheet/steel"
+  }
+}

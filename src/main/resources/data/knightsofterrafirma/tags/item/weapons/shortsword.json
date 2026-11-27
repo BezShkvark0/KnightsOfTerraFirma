@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_shortsword",
+    "magistuarmory:bronze_shortsword",
+    "magistuarmory:iron_shortsword",
+    "magistuarmory:steel_shortsword",
+    "magistuarmory:netherite_shortsword",
+    "magistuarmory:wood_shortsword",
+    "magistuarmory:stone_shortsword",
+    "magistuarmory:gold_shortsword",
+    "magistuarmory:diamond_shortsword",
+    "magistuarmory:silver_shortsword",
+    "knightsofterrafirma:bismuth_bronze_short_sword",
+    "knightsofterrafirma:black_bronze_short_sword",
+    "knightsofterrafirma:black_steel_short_sword",
+    "knightsofterrafirma:blue_steel_short_sword",
+    "knightsofterrafirma:red_steel_short_sword"
+  ]
+}

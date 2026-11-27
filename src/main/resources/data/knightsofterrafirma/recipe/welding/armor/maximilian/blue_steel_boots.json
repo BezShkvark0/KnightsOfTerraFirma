@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:blue_steel_knight_boots"
+  },
+  "second_input": {
+    "item": "tfc:metal/rod/blue_steel"
+  },
+  "tier": 6,
+  "result": {
+    "id": "knightsofterrafirma:blue_steel_maximilian_boots",
+    "count": 1
+  },
+  "bonus": "copy_best"
+}

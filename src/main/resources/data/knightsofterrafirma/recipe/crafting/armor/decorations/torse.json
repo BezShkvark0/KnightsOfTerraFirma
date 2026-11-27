@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    "W W",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "item": "tfc:wool_cloth"
+    }
+  },
+  "result": {
+    "id": "magistuarmory:torse_decoration",
+    "count": 1
+  }
+}

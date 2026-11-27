@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "magistuarmory:steel_ring",
+    "count": 1
+  },
+  "tier": 4,
+  "rules": [
+    "bend_last"
+  ],
+  "ingredient": {
+    "item": "magistuarmory:steel_nugget"
+  },
+  "apply_bonus": false
+}

@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "ingredient": {
+    "tag": "c:sheets/bronze"
+  },
+  "tier": 2,
+  "rules": [
+    "hit_last",
+    "draw_second_last",
+    "bend_third_last"
+  ],
+  "apply_bonus": true,
+  "result": {
+    "id": "knightsofterrafirma:bronze_gilded_bellows_maximilian_helmet",
+    "count": 1
+  }
+}

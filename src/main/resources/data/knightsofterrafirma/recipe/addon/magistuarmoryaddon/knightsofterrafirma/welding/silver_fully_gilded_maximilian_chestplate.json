@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/silver"
+  },
+  "second_input": {
+    "tag": "c:sheets/silver"
+  },
+  "tier": 1,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:silver_fully_gilded_maximilian_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "magistuarmory:kettlehat"
+  },
+  "result_fluid": {
+    "amount": 416,
+    "id": "tfc:metal/steel"
+  },
+  "temperature": 1540,
+  "use_durability": true
+}

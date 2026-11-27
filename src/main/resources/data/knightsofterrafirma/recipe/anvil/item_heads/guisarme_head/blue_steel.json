@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:blue_steel_guisarme_head",
+    "count": 1
+  },
+  "tier": 6,
+  "rules": [
+    "punch_last",
+    "bend_second_last",
+    "hit_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_ingot/blue_steel"
+  },
+  "apply_bonus": true
+}

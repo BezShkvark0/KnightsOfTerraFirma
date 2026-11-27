@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/sheet/red_steel"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:red_steel_shield_brace"
+  },
+  "tier": 6,
+  "result": {
+    "id": "knightsofterrafirma:red_steel_target",
+    "count": 1
+  },
+  "bonus": "copy_best"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "tfc:sewing",
+  "stitches": [
+    " # # # # ",
+    " ##   ## ",
+    " ##   ## ",
+    " ### ### ",
+    "   ###   "
+  ],
+  "squares": [
+    "BWWBBWWB",
+    "BBWWWWBB",
+    "BWBWWBWB",
+    "BBBWWBBB"
+  ],
+  "result": {
+    "id": "magistuarmory:tree_pattern",
+    "count": 1
+  }
+}

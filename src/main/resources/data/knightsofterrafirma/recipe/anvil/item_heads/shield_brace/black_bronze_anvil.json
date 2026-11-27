@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:black_bronze_shield_brace",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "upset_last",
+    "shrink_not_last",
+    "bend_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_ingot/black_bronze"
+  },
+  "apply_bonus": true
+}

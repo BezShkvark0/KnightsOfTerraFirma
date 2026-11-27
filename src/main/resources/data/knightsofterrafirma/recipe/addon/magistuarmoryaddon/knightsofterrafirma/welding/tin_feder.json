@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:ingots/tin"
+  },
+  "second_input": {
+    "tag": "c:ingots/tin"
+  },
+  "tier": 1,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:tin_feder",
+    "count": 1
+  }
+}

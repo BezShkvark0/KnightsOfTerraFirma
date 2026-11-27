@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:steel_shield_brace",
+    "count": 1
+  },
+  "tier": 4,
+  "rules": [
+    "upset_last",
+    "shrink_not_last",
+    "bend_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_ingot/steel"
+  },
+  "apply_bonus": true
+}

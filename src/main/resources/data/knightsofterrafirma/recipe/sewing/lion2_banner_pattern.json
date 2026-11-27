@@ -1,0 +1,20 @@
+{
+  "type": "tfc:sewing",
+  "stitches": [
+    "  # #    ",
+    "  ## ##  ",
+    " ## ###  ",
+    " # ####  ",
+    "  # ###  "
+  ],
+  "squares": [
+    "BBWWBBBB",
+    "BBBWBWBB",
+    "BWBWWBBB",
+    "BBWWBWBB"
+  ],
+  "result": {
+    "id": "magistuarmory:lion2_pattern",
+    "count": 1
+  }
+}

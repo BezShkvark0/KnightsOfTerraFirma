@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:black_bronze_corinthian_helmet",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "draw_last",
+    "hit_not_last",
+    "shrink_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_sheet/black_bronze"
+  }
+}

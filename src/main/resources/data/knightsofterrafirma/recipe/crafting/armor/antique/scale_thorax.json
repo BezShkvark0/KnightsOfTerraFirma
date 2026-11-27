@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "d d",
+    "cac",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:plates/bronze"
+    },
+    "b": {
+      "item": "minecraft:leather"
+    },
+    "c": {
+      "tag": "magistuarmory:lamellar_rows/bronze"
+    },
+    "d": {
+      "tag": "c:nuggets/bronze"
+    }
+  },
+  "result": {
+    "id": "antiquelegacy:scale_thorax",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "tfc:sewing",
+  "stitches": [
+    "# ## ## #",
+    " ### ### ",
+    "  ## ##  ",
+    "#### ####",
+    "  ## ##  "
+  ],
+  "squares": [
+    "WWBWWBWW",
+    "WBWWWWBW",
+    "WBBWWBBW",
+    "BBWBBWBB"
+  ],
+  "result": {
+    "id": "magistuarmory:two-headed_eagle_pattern",
+    "count": 1
+  }
+}

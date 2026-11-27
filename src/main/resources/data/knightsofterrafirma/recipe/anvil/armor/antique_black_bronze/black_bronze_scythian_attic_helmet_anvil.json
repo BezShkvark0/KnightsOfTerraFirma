@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:black_bronze_scythian_attic_helmet",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "hit_last",
+    "bend_second_last",
+    "draw_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_sheet/black_bronze"
+  }
+}

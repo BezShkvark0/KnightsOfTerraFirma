@@ -1,0 +1,14 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:bismuth_bronze_provocator_helm"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:bismuth_bronze_provocator_visor"
+  },
+  "tier": 2,
+  "result": {
+    "id": "knightsofterrafirma:bismuth_bronze_provocator_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:bismuth_bronze_small_wings_decoration",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "upset_not_last",
+    "draw_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/ingot/bismuth_bronze"
+  }
+}

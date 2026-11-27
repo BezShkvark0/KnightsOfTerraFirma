@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:steel_lochaber_axe_blade",
+    "count": 1
+  },
+  "tier": 4,
+  "rules": [
+    "punch_last",
+    "hit_not_last",
+    "bend_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_ingot/steel"
+  },
+  "apply_bonus": true
+}

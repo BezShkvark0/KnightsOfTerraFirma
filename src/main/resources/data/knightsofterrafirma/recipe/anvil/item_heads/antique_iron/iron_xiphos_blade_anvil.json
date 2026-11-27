@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:iron_xiphos_blade",
+    "count": 1
+  },
+  "tier": 3,
+  "rules": [
+    "draw_last",
+    "bend_second_last",
+    "hit_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/sword_blade/wrought_iron"
+  }
+}

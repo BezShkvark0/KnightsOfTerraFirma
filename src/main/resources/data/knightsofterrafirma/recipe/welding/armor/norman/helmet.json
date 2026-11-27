@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "magistuarmory:barbute"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:norman_helmet_nose"
+  },
+  "tier": 4,
+  "result": {
+    "id": "magistuarmory:norman_helmet",
+    "count": 1
+  },
+  "bonus": "copy_best"
+}

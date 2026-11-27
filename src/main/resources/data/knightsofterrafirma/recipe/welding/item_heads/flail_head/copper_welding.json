@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:copper_morningstar_head"
+  },
+  "second_input": {
+    "item": "tfc:metal/chain/copper"
+  },
+  "tier": 1,
+  "result": {
+    "id": "knightsofterrafirma:copper_flail_head",
+    "count": 1
+  },
+  "bonus": "copy_best"
+}

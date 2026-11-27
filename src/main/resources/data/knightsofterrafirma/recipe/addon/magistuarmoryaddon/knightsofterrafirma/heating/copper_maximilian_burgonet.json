@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "knightsofterrafirma:copper_maximilian_burgonet"
+  },
+  "result_fluid": {
+    "amount": 300,
+    "id": "tfc:metal/copper"
+  },
+  "temperature": 1080,
+  "use_durability": true
+}

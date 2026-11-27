@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:red_steel_stiletto_blade",
+    "count": 1
+  },
+  "tier": 6,
+  "rules": [
+    "upset_any",
+    "hit_second_last",
+    "bend_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/knife_blade/red_steel"
+  },
+  "apply_bonus": true
+}

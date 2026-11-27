@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:steel_morningstar_head",
+    "count": 1
+  },
+  "tier": 4,
+  "rules": [
+    "punch_last",
+    "upset_second_last",
+    "hit_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/mace_head/steel"
+  },
+  "apply_bonus": true
+}

@@ -1,0 +1,32 @@
+{
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    "  T",
+    " S ",
+    "P  "
+  ],
+  "key": {
+    "T": {
+      "item": "knightsofterrafirma:bronze_stiletto_blade"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "magistuarmory:pole"
+    }
+  },
+  "result": {
+    "stack": {
+      "id": "magistuarmory:bronze_pike",
+      "count": 1
+    },
+    "modifiers": [
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
+    ]
+  },
+  "input_row": 0,
+  "input_column": 2
+}

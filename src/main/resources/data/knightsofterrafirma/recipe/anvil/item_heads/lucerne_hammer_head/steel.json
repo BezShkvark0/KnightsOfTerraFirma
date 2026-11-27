@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:steel_lucerne_hammer_head",
+    "count": 1
+  },
+  "tier": 4,
+  "rules": [
+    "punch_last",
+    "shrink_not_last",
+    "draw_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_ingot/steel"
+  },
+  "apply_bonus": true
+}

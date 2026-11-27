@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "knightsofterrafirma:iron_guisarme_head"
+  },
+  "result_fluid": {
+    "amount": 200,
+    "id": "tfc:metal/cast_iron"
+  },
+  "temperature": 1585,
+  "use_durability": true
+}

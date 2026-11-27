@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:ingots/silver"
+  },
+  "second_input": {
+    "tag": "c:ingots/silver"
+  },
+  "tier": 1,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:silver_arming_sword_type_xv",
+    "count": 1
+  }
+}

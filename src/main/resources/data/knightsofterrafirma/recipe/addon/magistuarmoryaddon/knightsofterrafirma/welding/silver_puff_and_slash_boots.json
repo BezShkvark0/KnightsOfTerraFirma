@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:sheets/silver"
+  },
+  "second_input": {
+    "tag": "c:sheets/silver"
+  },
+  "tier": 1,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:silver_puff_and_slash_boots",
+    "count": 1
+  }
+}

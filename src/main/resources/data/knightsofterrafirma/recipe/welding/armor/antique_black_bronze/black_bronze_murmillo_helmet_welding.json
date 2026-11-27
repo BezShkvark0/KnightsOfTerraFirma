@@ -1,0 +1,14 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:black_bronze_murmillo_helm"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:black_bronze_murmillo_visor"
+  },
+  "tier": 2,
+  "result": {
+    "id": "knightsofterrafirma:black_bronze_murmillo_helmet",
+    "count": 1
+  }
+}

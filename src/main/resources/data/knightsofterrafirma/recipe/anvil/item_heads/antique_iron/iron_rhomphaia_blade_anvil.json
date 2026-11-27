@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:iron_rhomphaia_blade",
+    "count": 1
+  },
+  "tier": 3,
+  "rules": [
+    "draw_last",
+    "hit_not_last",
+    "bend_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_ingot/wrought_iron"
+  }
+}

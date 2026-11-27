@@ -1,0 +1,16 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "knightsofterrafirma:iron_bismuth_bronze_celtic_sword"
+  },
+  "result_fluid": {
+    "amount": 100,
+    "id": "tfc:metal/bismuth_bronze"
+  },
+  "result_item": {
+    "id": "knightsofterrafirma:iron_celtic_sword_blade",
+    "count": 1
+  },
+  "temperature": 970,
+  "use_durability": true
+}

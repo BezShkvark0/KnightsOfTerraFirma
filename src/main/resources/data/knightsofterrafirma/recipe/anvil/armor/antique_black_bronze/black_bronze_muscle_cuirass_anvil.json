@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "knightsofterrafirma:black_bronze_muscle_cuirass",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "hit_last",
+    "hit_not_last",
+    "hit_any"
+  ],
+  "ingredient": {
+    "item": "knightsofterrafirma:black_bronze_muscle_cuirass_unfinished"
+  }
+}

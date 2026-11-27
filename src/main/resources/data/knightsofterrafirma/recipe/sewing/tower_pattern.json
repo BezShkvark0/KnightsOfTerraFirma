@@ -1,0 +1,20 @@
+{
+  "type": "tfc:sewing",
+  "stitches": [
+    "  ## ##  ",
+    "  ## ##  ",
+    "   # #   ",
+    "  ## ##  ",
+    "  ## ##  "
+  ],
+  "squares": [
+    "BBWBBWBB",
+    "BBWWWWBB",
+    "BBBWWBBB",
+    "BBWWWWBB"
+  ],
+  "result": {
+    "id": "magistuarmory:tower_pattern",
+    "count": 1
+  }
+}

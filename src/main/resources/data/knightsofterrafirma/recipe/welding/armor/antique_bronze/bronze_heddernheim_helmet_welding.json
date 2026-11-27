@@ -1,0 +1,14 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/double_sheet/wrought_iron"
+  },
+  "second_input": {
+    "item": "tfc:metal/ingot/bronze"
+  },
+  "tier": 2,
+  "result": {
+    "id": "antiquelegacy:heddernheim_helmet",
+    "count": 1
+  }
+}

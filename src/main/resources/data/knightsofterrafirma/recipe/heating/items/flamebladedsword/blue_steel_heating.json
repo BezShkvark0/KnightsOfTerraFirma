@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "knightsofterrafirma:blue_steel_flame_bladed_sword"
+  },
+  "result_fluid": {
+    "amount": 400,
+    "id": "tfc:metal/blue_steel"
+  },
+  "temperature": 1540,
+  "use_durability": true
+}

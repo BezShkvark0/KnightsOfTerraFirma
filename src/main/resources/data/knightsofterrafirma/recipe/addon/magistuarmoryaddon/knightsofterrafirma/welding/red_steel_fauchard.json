@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "c:ingots/red_steel"
+  },
+  "second_input": {
+    "tag": "c:ingots/red_steel"
+  },
+  "tier": 5,
+  "bonus": "copy_best",
+  "result": {
+    "id": "knightsofterrafirma:red_steel_fauchard",
+    "count": 1
+  }
+}

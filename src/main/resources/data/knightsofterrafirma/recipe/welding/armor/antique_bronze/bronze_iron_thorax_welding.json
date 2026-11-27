@@ -1,0 +1,14 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/double_sheet/wrought_iron"
+  },
+  "second_input": {
+    "item": "tfc:metal/sheet/bronze"
+  },
+  "tier": 2,
+  "result": {
+    "id": "antiquelegacy:iron_thorax",
+    "count": 1
+  }
+}

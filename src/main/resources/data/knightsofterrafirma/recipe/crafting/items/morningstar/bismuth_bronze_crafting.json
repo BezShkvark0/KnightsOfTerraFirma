@@ -1,0 +1,32 @@
+{
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    "  T",
+    " S ",
+    "P  "
+  ],
+  "key": {
+    "T": {
+      "item": "knightsofterrafirma:bismuth_bronze_morningstar_head"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "magistuarmory:hilt"
+    }
+  },
+  "result": {
+    "stack": {
+      "id": "knightsofterrafirma:bismuth_bronze_morningstar",
+      "count": 1
+    },
+    "modifiers": [
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
+    ]
+  },
+  "input_row": 0,
+  "input_column": 2
+}

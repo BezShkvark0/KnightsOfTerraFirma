@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/sheet/bronze"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:bronze_shield_brace"
+  },
+  "tier": 2,
+  "result": {
+    "id": "magistuarmory:bronze_target",
+    "count": 1
+  },
+  "bonus": "copy_best"
+}

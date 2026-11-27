@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "#knightsofterrafirma:weapons/ahlspiess",
+    "#knightsofterrafirma:weapons/chivalrylance",
+    "#knightsofterrafirma:weapons/guisarme",
+    "#knightsofterrafirma:weapons/pike",
+    "#knightsofterrafirma:weapons/shortsword",
+    "#knightsofterrafirma:weapons/stylet",
+    "#knightsofterrafirma:weapons/antiquedagger",
+    "#knightsofterrafirma:weapons/antiquespear",
+    "#knightsofterrafirma:weapons/doru",
+    "#knightsofterrafirma:weapons/sarissa",
+    "#knightsofterrafirma:weapons/retiarius",
+    "#knightsofterrafirma:weapons/triarii_spear",
+    "#knightsofterrafirma:weapons/xiphos"
+  ]
+}

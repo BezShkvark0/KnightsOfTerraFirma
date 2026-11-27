@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "knightsofterrafirma:rose_gold_laurel_wreath_decoration"
+  },
+  "result_fluid": {
+    "amount": 200,
+    "id": "tfc:metal/rose_gold"
+  },
+  "temperature": 960
+}

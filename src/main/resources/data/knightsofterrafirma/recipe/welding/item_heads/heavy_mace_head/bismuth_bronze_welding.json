@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/mace_head/bismuth_bronze"
+  },
+  "second_input": {
+    "item": "tfc:metal/ingot/bismuth_bronze"
+  },
+  "tier": 2,
+  "result": {
+    "id": "knightsofterrafirma:bismuth_bronze_heavy_mace_head",
+    "count": 1
+  },
+  "bonus": "copy_best"
+}

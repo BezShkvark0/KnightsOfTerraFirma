@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "result": {
+    "id": "antiquelegacy:iron_pilos",
+    "count": 1
+  },
+  "tier": 3,
+  "rules": [
+    "draw_last",
+    "bend_second_last",
+    "shrink_any"
+  ],
+  "ingredient": {
+    "item": "tfc:metal/double_sheet/wrought_iron"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "tfc:metal/double_sheet/wrought_iron"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:bismuth_bronze_plate"
+  },
+  "tier": 2,
+  "result": {
+    "id": "knightsofterrafirma:bismuth_bronze_iron_niederbieber_helmet",
+    "count": 1
+  }
+}

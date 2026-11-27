@@ -1,0 +1,28 @@
+{
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+    "count": 1,
+    "item": [
+      {
+        "item": "magistuarmory:torse_decoration"
+      },
+      {
+        "item": "magistuarmory:torse_and_mantle_decoration"
+      }
+    ]
+  },
+  "input_fluid": {
+    "amount": 25,
+    "fluid": "tfc:light_blue_dye"
+  },
+  "output_item": {
+    "modifiers": [
+      "tfc:copy_input",
+      {
+        "type": "tfc:dye_leather",
+        "color": "light_blue"
+      }
+    ]
+  },
+  "duration": 1000
+}

@@ -1,0 +1,20 @@
+{
+  "type": "tfc:sewing",
+  "stitches": [
+    "   # #   ",
+    " # # # # ",
+    " # # # # ",
+    "   # #   ",
+    "         "
+  ],
+  "squares": [
+    "BBBWWBBB",
+    "BWWWWWWB",
+    "BBBWWBBB",
+    "        "
+  ],
+  "result": {
+    "id": "magistuarmory:crusader_cross_pattern",
+    "count": 1
+  }
+}
